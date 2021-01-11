@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mpl-hig"
+version = "0.0.0"
+description = "Matplotlib style based on Human Interface Guidelines by Apple."
+authors = ["Shota Imaki <shota.imaki@icloud.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.3.3"
+seaborn = "^0.11.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
